@@ -16,9 +16,9 @@ export default function Home() {
       <TechStack />
       <WhatDrivesUs />
       <Process />
-      <OurUSP />
+      {/* <OurUSP />
       <RecentBlogs />
-      <ContactUs />
+      <ContactUs /> */}
     </div>
   );
 }

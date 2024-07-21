@@ -1,7 +1,7 @@
 const WhatDrivesUs = () => {
   return (
-    <div className="flex flex-col justify-center p-24 pt-40 relative space-y-4 h-1/2">
-      <h1 className="text-[40px] tracking-wide text-left font-bold">
+    <div className="flex flex-col justify-center p-6 py-8 md:p-24 md:pt-40 relative space-y-4 h-1/2">
+      <h1 className="text-[26px] md:text-[40px] tracking-wide text-left font-bold">
         Guided by Innovation, Driven by Technology:
         <br /> Crafting Tomorrow&apos;s Solutions Today.
       </h1>
