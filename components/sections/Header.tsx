@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 const Header = () => {
   return (
-    <div className="flex justify-between px-24 pt-5">
+    <div className="flex justify-between px-6 md:px-24 pt-5">
       <Image src={"/logo.svg"} alt={"logo"} width={50} height={40} />
       <Button variant={"outline"} className="rounded-full">
         Let&apos;s connect

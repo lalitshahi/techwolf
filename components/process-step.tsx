@@ -20,7 +20,7 @@ const ProcessStep = ({
     <div
       className="absolute"
       style={{
-        transformOrigin: 290,
+        transformOrigin: 190,
         left: 0,
         transform: `rotate(calc(360deg/6 * ${index} + 30deg ))`,
       }}
@@ -32,8 +32,8 @@ const ProcessStep = ({
         {image && (
           <Image
             src={image}
-            width={30}
-            height={30}
+            width={20}
+            height={20}
             alt="planning"
             className="mb-2"
           />

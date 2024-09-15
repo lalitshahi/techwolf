@@ -47,7 +47,7 @@ const processes = [
 ];
 const Process = () => {
   return (
-    <div className="flex justify-between p-24 relative space-y-4 items-center">
+    <div className="flex flex-col md:flex-row justify-between p-5 md:p-24 relative space-y-4 items-center">
       <h1 className="flex-1 text-[40px] tracking-normal text-left font-normal">
         We begin by understanding your{" "}
         <span className="font-headingText text-primary tracking-widest">
@@ -64,11 +64,8 @@ const Process = () => {
         . This crucial step forms the foundation for the entire project.
       </h1>
       <div className="flex-1 flex justify-center items-center">
-        <div
-          className="relative flex justify-center items-center"
-          style={{ width: 600, height: 600 }}
-        >
-          <Image src={"/process.svg"} alt="process" width={250} height={250} />
+        <div className="relative flex justify-center items-center w-[200px] h-[200px] md:w-[600px] md:h-[600px]">
+          <Image src={"/process.svg"} alt="process" width={150} height={150} />
           {processes.map((process) => (
             <ProcessStep
               key={process.step}
@@ -90,12 +87,12 @@ const Process = () => {
               }}
             >
               <Image
-                src={"/circle-arrow.svg"}
+                src={"/process-arrow-1.svg"}
                 alt={"process arrows"}
                 width={60}
                 height={60}
                 style={{
-                  transform: `rotate(calc(360deg/-6))`,
+                  transform: `rotate(-120deg)`,
                 }}
               />
             </div>
